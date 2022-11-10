@@ -3,6 +3,10 @@
     font-size: 50%;
   }
 
+  body {
+    overflow-x: hidden;
+  }
+
   /* MOBILE NAVIGATION */
   .btn-mobile-nav {
     display: block;
