@@ -18,10 +18,10 @@
     -webkit-backdrop-filter: blur(5px);
     backdrop-filter: blur(10px);
     position: absolute;
-    top: 9.4rem;
+    top: 11.2rem;
     left: 0;
     width: 100%;
-    height: 100vh;
+    height: 86vh;
     transform: translateX(100%);
 
     display: flex;
@@ -81,7 +81,6 @@
     padding: 4rem 3rem;
   }
 
-
   .hero {
     margin-top: 100%;
     padding: 0;
@@ -124,7 +123,6 @@
   .main-text {
     margin-bottom: 4rem;
   }
-  
 
   .hero-text-side {
     width: 90%;
@@ -157,13 +155,17 @@
     margin: 26rem auto;
     width: 90%;
     z-index: 0;
+    padding: 9rem 3rem;
+  }
+
+  .hww-heading {
+    font-size: 5rem;
   }
 
   .how-we-work-content {
     flex-direction: column;
     text-align: center;
     gap: 6rem;
-
   }
 
   .hww-bg {
@@ -172,30 +174,30 @@
     top: 0;
     right: 0;
     z-index: -1;
-}
+  }
 
-.footer {
+  .footer {
     padding: 11rem 0 11rem 0;
-}
+  }
 
-.footer-content-header {
+  .footer-content-header {
     flex-direction: column;
     gap: 4rem;
-}
+  }
 
-.footer-line {
+  .footer-line {
     width: 90%;
     margin: 5rem auto;
-}
+  }
 
-.fa-brands {
+  .fa-brands {
     font-size: 3rem;
-}
+  }
 
-.footer-content-nav {
+  .footer-content-nav {
     flex-direction: column;
     text-align: center;
     margin-top: 5rem;
     gap: 5rem;
-}
+  }
 }
