@@ -153,13 +153,15 @@
 
   .how-we-work {
     margin: 26rem auto;
+    padding: 5rem;
     width: 90%;
     z-index: 0;
-    padding: 9rem 3rem;
+    
   }
 
   .hww-heading {
     font-size: 5rem;
+    width: 100%;
   }
 
   .how-we-work-content {
